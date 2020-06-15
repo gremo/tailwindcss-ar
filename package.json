@@ -1,0 +1,40 @@
+{
+  "name": "tailwindcss-ar",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "An aspect ratio plugin for Tailwind CSS, using the pseudo-element technique",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "plugin",
+    "aspect ratio",
+    "ratio box"
+  ],
+  "author": "Marco Polichetti <gremo1982@gmail.com>",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "mocha": "^8.0.1",
+    "postcss": "^7.0.32",
+    "tailwindcss": "^1.4.6"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^1.2 <2"
+  },
+  "homepage": "https://github.com/gremo/tailwindcss-ar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gremo/tailwindcss-ar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gremo/tailwindcss-ar/issues"
+  }
+}

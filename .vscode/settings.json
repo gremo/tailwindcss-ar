@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.markdownlint": true,
+  },
+  "eslint.enable": true,
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/node_modules": true,
+  },
+}
