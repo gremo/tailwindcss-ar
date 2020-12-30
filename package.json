@@ -27,7 +27,7 @@
     "tailwindcss": "^2.0.2"
   },
   "peerDependencies": {
-    "tailwindcss": "^1.2 <2"
+    "tailwindcss": "^1.2 || ^2.0"
   },
   "homepage": "https://github.com/gremo/tailwindcss-ar#readme",
   "repository": {
