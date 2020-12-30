@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-ar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "ISC",
   "description": "An aspect ratio plugin for Tailwind CSS, using the pseudo-element technique",
   "keywords": [
