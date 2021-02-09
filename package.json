@@ -20,7 +20,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.0",
     "eslint": "^7.19.0",
     "mocha": "^8.2.1",
     "postcss": "^8.2.4",
