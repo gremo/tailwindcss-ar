@@ -24,7 +24,7 @@
     "eslint": "^7.21.0",
     "mocha": "^8.3.2",
     "postcss": "^8.2.7",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.4"
   },
   "peerDependencies": {
     "tailwindcss": "^1.2 || ^2.0"
