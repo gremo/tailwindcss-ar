@@ -1,14 +1,20 @@
 {
   "extends": [
     "config:base",
-    ":disablePeerDependencies"
+    ":automergeMinor",
+    ":automergePatch",
+    ":pinDevDependencies",
+    ":semanticCommitsDisabled"
   ],
   "packageRules": [
     {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "rangeStrategy": "bump"
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "bump",
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
     }
   ]
 }
