@@ -3,18 +3,14 @@
     "config:base",
     ":automergeMinor",
     ":automergePatch",
+    ":disablePeerDependencies",
     ":pinDevDependencies",
     ":semanticCommitsDisabled"
   ],
   "packageRules": [
     {
       "matchDepTypes": ["dependencies"],
-      "rangeStrategy": "bump",
-      "automerge": true
-    },
-    {
-      "matchDepTypes": ["devDependencies"],
-      "automerge": true
+      "rangeStrategy": "bump"
     }
   ]
 }
