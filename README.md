@@ -1,3 +1,8 @@
+# Deprecated
+
+This package is now deprecated, use the official [@tailwindcss/aspect-ratio
+](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) plugin.
+
 <!-- markdownlint-disable no-inline-html -->
 <p align="center">
   <a href="https://tailwindcss.com/"><img src="https://user-images.githubusercontent.com/1532616/84816157-5b8ca580-b014-11ea-9102-574c70528838.png" alt="Tailwind CSS Logo" /></a>
